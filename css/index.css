@@ -1,0 +1,419 @@
+.out_wrapper::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .header .top {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 30px;
+  line-height: 30px;
+}
+.out_wrapper .header .top .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.out_wrapper .header .top .container .left_list {
+  float: left;
+}
+.out_wrapper .header .top .container .left_list p {
+  float: left;
+  margin-right: 10px;
+}
+.out_wrapper .header .top .container .left_list p .register {
+  border-left: 1px solid #b3aeae;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+.out_wrapper .header .top .container .right_list {
+  float: right;
+  font-size: 0;
+}
+.out_wrapper .header .top .container .right_list a {
+  font-size: 12px;
+  padding: 0 10px;
+}
+.out_wrapper .header .top .container .right_list a ~ a {
+  border-left: 1px solid #b3aeae;
+}
+.out_wrapper .header .bottom {
+  width: 1200px;
+  margin: 0 auto;
+}
+.out_wrapper .header .bottom::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .header .bottom .logoArea {
+  float: left;
+}
+.out_wrapper .header .bottom img {
+  width: 176px;
+  height: 56px;
+  margin: 25px 45px;
+}
+.out_wrapper .header .searchArea {
+  float: right;
+  margin-top: 35px;
+}
+.out_wrapper .header .searchArea .searchForm::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .header .searchArea .searchForm input {
+  width: 490px;
+  height: 32px;
+  padding: 0 4px;
+  border: 2px solid #ea4a36;
+  float: left;
+}
+.out_wrapper .header .searchArea .searchForm input:focus {
+  outline: none;
+}
+.out_wrapper .header .searchArea .searchForm button {
+  width: 68px;
+  height: 36px;
+  background-color: #ea4a36;
+  color: #ffffff;
+  float: right;
+  border: none;
+}
+.out_wrapper .header .searchArea .searchForm button:focus {
+  outline: none;
+}
+.out_wrapper .header .all_goods {
+  height: 50px;
+  border-bottom: 2px solid #e1251b;
+}
+.out_wrapper .header .all_goods .type_wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.out_wrapper .header .all_goods .type_wrap .left_list {
+  float: left;
+  width: 210px;
+  height: 50px;
+  background-color: #e1251b;
+  line-height: 50px;
+  text-align: center;
+}
+.out_wrapper .header .all_goods .type_wrap .left_list h2 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.out_wrapper .header .all_goods .type_wrap .right_list {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+.out_wrapper .header .all_goods .type_wrap .right_list a {
+  margin: 0px 22px;
+  font-size: 16px;
+  color: #333333;
+}
+.out_wrapper .con {
+  width: 1200px;
+  margin: 15px auto 0;
+}
+.out_wrapper .con .conPoin {
+  padding: 9px 15px 9px 0;
+}
+.out_wrapper .con .conPoin > a + a::before {
+  content: '/';
+  padding: 0 5px;
+  color: #ccc;
+}
+.out_wrapper .con .mainCon {
+  margin: 5px 0 15px;
+}
+.out_wrapper .con .mainCon::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .con .mainCon .previewWrap {
+  width: 400px;
+  float: left;
+}
+.out_wrapper .con .mainCon .previewWrap .preview {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+.out_wrapper .con .mainCon .previewWrap .preview .zoom {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.out_wrapper .con .mainCon .previewWrap .preview .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+}
+.out_wrapper .con .mainCon .previewWrap .preview .bigBox {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 420px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+.out_wrapper .con .mainCon .previewWrap .preview .bigBox img {
+  width: 800px;
+  height: 800px;
+}
+.out_wrapper .con .mainCon .specScroll {
+  margin-top: 5px;
+  width: 100%;
+}
+.out_wrapper .con .mainCon .specScroll::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .con .mainCon .specScroll .prev,
+.out_wrapper .con .mainCon .specScroll .next {
+  width: 10px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: #EBEBEB;
+}
+.out_wrapper .con .mainCon .specScroll .prev {
+  float: left;
+  margin-right: 4px;
+}
+.out_wrapper .con .mainCon .specScroll .next {
+  float: right;
+}
+.out_wrapper .con .mainCon .specScroll .itemCon {
+  width: 372px;
+  height: 56px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.out_wrapper .con .mainCon .specScroll .itemCon .list {
+  height: 100%;
+  width: 9999px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.out_wrapper .con .mainCon .specScroll .itemCon .list > li {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+}
+.out_wrapper .con .mainCon .specScroll .itemCon .list > li img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+.out_wrapper .con .right_con {
+  width: 700px;
+  float: right;
+}
+.out_wrapper .con .right_con .first {
+  margin-top: 15px;
+}
+.out_wrapper .con .right_con .first h3 {
+  font-size: 14px;
+  line-height: 21px;
+}
+.out_wrapper .con .right_con .first p {
+  color: #e12228;
+  margin-top: 15px;
+}
+.out_wrapper .con .right_con .first .bg_pink {
+  margin-top: 10px;
+  line-height: 28px;
+  border-bottom: 1px solid #ededed;
+}
+.out_wrapper .con .right_con .first .bg_pink::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea {
+  margin: 10px 0 0;
+  padding: 7px;
+  background-color: #fee9ec;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1 .title {
+  float: left;
+  margin-right: 15px;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1 .price {
+  float: left;
+  color: #cc1122;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1 .price i {
+  font-size: 16px;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1 .price em {
+  font-size: 24px;
+  font-weight: bold;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1 .price span {
+  font-size: 12px;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea1 .num {
+  float: right;
+  color: #333333;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea2 {
+  margin: 5px 0;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea2::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea2 .title {
+  float: left;
+  margin-right: 15px;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea2 .low_price {
+  width: 520px;
+  float: left;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea2 .low_price i {
+  background-color: #c81623;
+  padding: 3px;
+  color: #ffffff;
+}
+.out_wrapper .con .right_con .first .bg_pink .priceArea .priceArea2 .low_price em {
+  color: #999999;
+}
+.out_wrapper .con .right_con .first .bg_pink .new {
+  margin-top: 10px;
+}
+.out_wrapper .con .right_con .first .bg_pink .new .one {
+  float: left;
+}
+.out_wrapper .con .right_con .first .bg_pink .new .gifts {
+  color: #999;
+  margin-left: 15px;
+  display: inline-block;
+}
+.out_wrapper .con .right_con .first .bg_pink .to {
+  margin-top: 10px;
+}
+.out_wrapper .con .right_con .first .bg_pink .to .two {
+  float: left;
+}
+.out_wrapper .con .right_con .first .bg_pink .to .province {
+  display: inline-block;
+  color: #999;
+  margin-left: 15px;
+}
+.out_wrapper .con .right_con .second {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.out_wrapper .con .right_con .second .dlOld .choosed mark {
+  display: inline-block;
+  height: 30px;
+  background-color: snow;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  margin-right: 20px;
+}
+.out_wrapper .con .right_con .second .dlOld .choosed mark a {
+  color: red;
+  margin-left: 20px;
+}
+.out_wrapper .con .right_con .second .dlOld dl {
+  margin: 13px 0;
+}
+.out_wrapper .con .right_con .second .dlOld dl::after {
+  content: "\200B";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.out_wrapper .con .right_con .second .dlOld dl dt {
+  float: left;
+  margin-right: 15px;
+}
+.out_wrapper .con .right_con .second .dlOld dl dd {
+  float: left;
+  margin-right: 5px;
+  color: #666666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+}
+.out_wrapper .con .right_con .second .dlOld dl dd:first-of-type {
+  color: red;
+}
+.out_wrapper .con .right_con .second .shopping {
+  width: 48px;
+  float: left;
+  position: relative;
+}
+.out_wrapper .con .right_con .second .shopping input {
+  width: 38px;
+  height: 37px;
+  border: 1px solid #dddddd;
+  color: #666666;
+  text-align: center;
+  line-height: 37px;
+}
+.out_wrapper .con .right_con .second .shopping .plus,
+.out_wrapper .con .right_con .second .shopping .mins {
+  width: 15px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #666666;
+  position: absolute;
+  right: -8px;
+  border: 1px solid #dddddd;
+}
+.out_wrapper .con .right_con .second .shopping .mins {
+  top: 19px;
+}
+.out_wrapper .con .right_con .second .shop_car {
+  float: left;
+}
+.out_wrapper .con .right_con .second .shop_car a {
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e1251b;
+  margin-left: 30px;
+}
