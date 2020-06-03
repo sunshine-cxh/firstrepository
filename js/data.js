@@ -13,7 +13,7 @@ var goodData = {
             title: "iphone 6S系类",
         }
     ],
-    imgsrc: [
+    imgSrc: [
         { b: "./images/b1.png", s: "./images/s1.png" },
         { b: "./images/b2.png", s: "./images/s2.png" },
         { b: "./images/b3.png", s: "./images/s3.png" },
